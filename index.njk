@@ -1,13 +1,36 @@
 {% extends "_includes/default.njk" %}
 
-{% block title %}It does work{% endblock %}
+{% block title %}Encore Promotions | Promotional Products &amp; Apparel{% endblock %}
 
 {% block content %}
-  <div class="fixed inset-0 flex justify-center items-center">
-    <div>
-      <span class="text-change">Good design</span><br/>
-      <span class="change">is<br/>as little design<br/>as possible</span><br/>
-      <span x-data="{message:'🤖 Hello World 🤓'}" x-text="message"></span>
+<main class="relative bg-white bg-opacity-50 min-h-full bg-cover bg-top sm:bg-top bg-blend-normal" style="background-image: url('https://external-preview.redd.it/1-olSzjNBmoopw6WBO9i-CFI_bPOw-syv6MaiI2MVtw.jpg?auto=webp&s=bbbbf002ce3cda2e54ddf110707435f8120b7aa5');">
+
+  <div class="bg-gray-900 bg-opacity-50 absolute top-0 left-0 right-0 bottom-0"></div>
+  <div class="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center sm:px-6 sm:py-24 lg:px-8 lg:py-28">
+    {# <p class="text-sm font-semibold text-white text-opacity-50 uppercase tracking-wide">404 error</p> #}
+    {# <img class="max-w-[220px] mx-auto" src="/images/encore_logo.png" alt="Encore Promotions Logo" /> #}
+    <div class="bg-white inline-flex items-center justify-center rounded-full h-12 w-12 border-2 border-[#1D1F96]">
+      <img class="h-8 w-8" src="/images/favicon.png" alt="">
+    </div>
+    <h1 class="mt-4 text-5xl font-extrabold text-white tracking-tight sm:text-7xl">Thank You</h1>
+    <p class="mt-6 text-md lg:text-lg font-medium text-white text-opacity-80">After proudly telling our customer's stories with promotional products for over 35 years, Encore Promotions has officially closed for business.</p>
+    <p class="mt-4 text-md lg:text-lg font-medium text-white text-opacity-80">We would like to thank all our customers and partners that we have done business with over the years.  Encore Promotions could not have been as successful as it was without your support and loyalty.</p>
+    <div class="max-w-md mx-auto relative text-md lg:text-lg font-medium text-white">
+      <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-white text-opacity-20" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+      </svg>
+      <p class="mt-4 text-md lg:text-lg font-medium text-white text-opacity-80">
+        And then the man he steps right up to the microphone <br/>
+        And says at last just as the time bell rings<br/>
+        "Goodnight, now it's time to go home"
+      </p>
+      {# <p class="mt-4 text-md lg:text-lg font-medium text-white text-opacity-80">- Rick</p> #}
     </div>
   </div>
+  <div class="absolute bottom-0 w-full bg-white bg-opacity-70 text-center px-6 py-4">
+    <p class="text-sm font-semibold text-gray-700 tracking-wider">Looking for Promotional Products? We highly recommend our friends at <a class="hover:text-blue-600" href="https://www.projexpromotions.ca/"><span class="underline ">Projex Promotions</span></a> <svg xmlns="http://www.w3.org/2000/svg" class=" inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+</svg></p>
+  </div>
+</main>
 {% endblock %}
